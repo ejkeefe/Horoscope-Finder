@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="The best horoscope site EVER!">
+    	
+	
+		<title>Find Your Horoscope</title>
+		
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">		
+		<link rel="stylesheet" href="css/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700italic,900' rel='stylesheet' type='text/css'>
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="icon" 
+      type="image/png" 
+      href="images/leo.png">
+
+
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<h1><i class="fa fa-moon-o"></i> Find Your Horoscope <i class="fa fa-sun-o"></i></h1>
+			</header> 	
+
+				<form method="" enctype="multipart/form-data">
+ 					<h2>Enter Your Birthday:</h2>
+					<div class="dropDown">
+	  					<label>Month:</label>
+	  						<select id ="dropdown" name="dropdown">
+	  							<option value="jan">January</opiton>
+	  							<option value="feb">February</option>
+	  							<option value="mar">March</option>
+	  							<option value="apr">April</option>
+	  							<option value="may">May</option>
+	  							<option value="june">June</option>
+	  							<option value="july">July</option>
+	  							<option value="aug">August</option>
+	  							<option value="sep">September</option>
+	  							<option value="oct">October</option>
+	  							<option value="nov">November</option>
+	  							<option value="dec">December</option>
+	  						</select> 
+	  					</div>
+	  	<div class="day">
+	  		<label>Day:</label>
+	  			<input type="number" name="day" id="day"min="1"max="31" placeholder="01">
+	  	</div>
+
+
+	  				<input type="submit" value="Submit">
+		
+				</form>
+
+				<div id="constellation">
+
+					<img id="aquarius"src="images/aquarius.png">
+
+					<img id="aries"src="images/aries.png">
+
+					<img id="cancer"src="images/cancer.png">
+
+					<img id="capricorn"src="images/capricorn.png">
+
+					<img id="gemini"src="images/gemini.png">
+
+					<img id="leo"src="images/leo.png">
+
+					<img id="libra"src="images/libra.png">
+
+					<img id="pisces"src="images/pisces.png">
+
+					<img id="sagittarius"src="images/sagittarius.png">
+
+					<img id="taurus"src="images/taurus.png">
+
+    				<img id="scorpio"src="images/scorpio.png">
+    	
+					<img id="virgo"src="images/virgo.png">
+
+
+				</div><!--close constellation div-->
+
+				<div id="descriptions">
+					<div id="aquariusDes">
+						<p><strong>Strengths: </strong>Original, tolerant, ideal, calm, friendly, charitable, independent, smart, practical</p>
+						<p><strong>Weaknesses: </strong>Changeful, disobedient, liberalistic, hasty, rebel</p>
+						<p><strong>Symbol: </strong>Water carrier</p>
+						<p><strong>Element: </strong>Air</p>
+						<p><strong>Lucky Color: </strong>Bronze</p>
+						<p><strong>Lucky Number: </strong>22</p>
+					</div>
+					<div id="ariesDes">
+						<p><strong>Strengths: </strong> Hopeful, active, energetic, honest, versatile, brave, adventurous, passionate, generous, cheerful, argumentative, curious</p>
+						<p><strong>Weaknesses: </strong> Impulsive, naive, self-willed, belligerent, impatient</p>
+						<p><strong>Symbol: </strong>Ram</p>
+						<p><strong>Element: </strong>Fire</p>
+						<p><strong>Lucky Color: </strong>Red</p>
+						<p><strong>Lucky Number: </strong>5</p>
+					</div>
+					<div id="capricornDes">
+						<p><strong>Strengths: </strong>Excellent, intelligent, practical, reliable, perseverant, generous, optimistic, cute, persistent</p>
+						<p><strong>Weaknesses: </strong>Stubborn, lonely, and suspicious</p>
+						<p><strong>Symbol: </strong>Goat</p>
+						<p><strong>Element: </strong>Earth</p>
+						<p><strong>Lucky Color: </strong>Brown, Black, Dark Green</p>
+						<p><strong>Lucky Number: </strong>4</p>
+					</div>
+					<div id="geminiDes">
+						<p><strong>Strengths: </strong>Multifarious, perspicacious, smart, cheerful, quick-witted, clement, charming</p>
+						<p><strong>Weaknesses: </strong>Fickle, gossipy</p>
+						<p><strong>Symbol: </strong>Twins</p>
+						<p><strong>Element: </strong>Air</p>
+						<p><strong>Lucky Color: </strong>Yellow</p>
+						<p><strong>Lucky Number: </strong>7</p>
+					</div>
+					<div id="leoDes">
+						<p><strong>Strengths: </strong>Proud, charitable, reflective, loyal and enthusiastic</p>
+						<p><strong>Weaknesses: </strong>Arrogant, vainglorious, indulgent, wasteful, willful, and self-complacent</p>
+						<p><strong>Symbol: </strong>Lion</p>
+						<p><strong>Element: </strong>Fire</p>
+						<p><strong>Lucky Color: </strong>Red, Gold, Yellow</p>
+						<p><strong>Lucky Number: </strong>19</p>
+					</div>
+					<div id="libraDes">
+						<p><strong>Strengths: </strong>Idealistic, equitable, just, strong social skills, aesthetic, charming, artistic, beautiful, kind-hearted</p>
+						<p><strong>Weaknesses: </strong>Idealistic, equitable, just, strong social skills, aesthetic, charming, artistic, beautiful, kind-hearted</p>
+						<p><strong>Symbol: </strong>Scales</p>
+						<p><strong>Element: </strong>Air</p>
+						<p><strong>Lucky Color: </strong>Brown</p>
+						<p><strong>Lucky Number: </strong>3</p>
+					</div>
+					<div id="piscesDes">
+						<p><strong>Strengths: </strong>Conscious, aesthetic, platonic, dedicated, kind, with good temper</p>
+						<p><strong>Weaknesses: </strong>Recessive, sentimental, indecisive, unrealistic</p>
+						<p><strong>Symbol: </strong>Fish</p>
+						<p><strong>Element: </strong>Water</p>
+						<p><strong>Lucky Color: </strong>White</p>
+						<p><strong>Lucky Number: </strong>11</p>
+					</div>
+					<div id="sagittariusDes">
+						<p><strong>Strengths: </strong>Insightful, superior, rational, brave, beautiful, lively, lovely, optimistic</p>
+						<p><strong>Weaknesses: </strong>Forgetful, careless, rash</p>
+						<p><strong>Symbol: </strong>Archer</p>
+						<p><strong>Element: </strong>Fire</p>
+						<p><strong>Lucky Color: </strong>Light Blue</p>
+						<p><strong>Lucky Number: </strong>6</p>
+					</div>
+					<div id="taurusDes">
+						<p><strong>Strengths: </strong>Romantic, decisive, logical, diligent, ardent, patient, talented in art, perseverant, benevolent</p>
+						<p><strong>Weaknesses: </strong>Prejudiced, dependent, stubborn</p>
+						<p><strong>Symbol: </strong>Bull</p>
+						<p><strong>Element: </strong>Earth</p>
+						<p><strong>Lucky Color: </strong>Pink</p>
+						<p><strong>Lucky Number: </strong>6</p>
+					</div>
+					<div id="scorpioDes">
+						<p><strong>Strengths: </strong>Mysterious, rational, intelligent, independent, intuitive, dedicated, insightful, charming, sensible</p>
+						<p><strong>Weaknesses: </strong>Suspicious, fanatical, complicated, possessive, arrogant, self-willed, extreme</p>
+						<p><strong>Symbol: </strong>Scorpion</p>
+						<p><strong>Element: </strong>Water</p>
+						<p><strong>Lucky Color: </strong>Purple, Black</p>
+						<p><strong>Lucky Number: </strong>4</p>
+					</div>
+					<div id="virgoDes">
+						<p><strong>Strengths: </strong>Helping, elegant, perfectionist, modest, practical, clearheaded</p>
+						<p><strong>Weaknesses: </strong>Picky, nosey, tortuous, confining</p>
+						<p><strong>Symbol: </strong>Virgin maiden</p>
+						<p><strong>Element: </strong>Earth</p>
+						<p><strong>Lucky Color: </strong>Gray</p>
+						<p><strong>Lucky Number: </strong>7</p>
+					</div>
+					<div id="cancerDes">
+						<p><strong>Strengths: </strong>With strong sixth sense, subjective, gentle, swift, imaginative, careful, dedicated, perseverant, kind, caring</p>
+						<p><strong>Weaknesses: </strong>Greedy, possessive, sensitive, prim</p>
+						<p><strong>Symbol: </strong>Crab</p>
+						<p><strong>Element: </strong>Water</p>
+						<p><strong>Lucky Color: </strong>Green</p>
+						<p><strong>Lucky Number: </strong>2</p>
+					</div>
+				</div>
+
+			<footer>
+				<p>Made w/ <i class="fa fa-heart-o"></i> by Emily Keefe :-)</p>
+			</footer>
+		</div><!-- #container --> 
+
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
