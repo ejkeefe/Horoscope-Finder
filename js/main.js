@@ -97,14 +97,3 @@ $( "input[type='submit']" ).on( "click", function(e) {
 });
 
 
-
-
-/*$("form").addClass("showResults");
-
-  $.ajax({
-    'url' : 'https://horoscope-api.herokuapp.com/horoscope/week/leo',
-    'type' : 'GET',
-    'success' : function(data) {
-      var dataObj = JSON.parse(data)
-      console.log(dataObj);
-      document.getElementById("results").innerHTML=(dataObj.sunsign);*/
